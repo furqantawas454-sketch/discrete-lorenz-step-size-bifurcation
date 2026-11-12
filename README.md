@@ -1,10 +1,10 @@
-# Step-size-induced bifurcations and chaos in the Euler-discretized Lorenz system: verification code
+# Discretization-induced chaos and bistability in the three-dimensional Lorenz system: verification code
 
 This repository contains the Wolfram Mathematica and Python code behind every theorem check,
 numerical example and figure in the manuscript
 
-> **F. Ahmad, M. K. Jamil**: *Step-size-induced bifurcations and chaos in the Euler-discretized
-> Lorenz system: stability, flip and Neimark–Sacker bifurcations, and feedback control*
+> **F. Ahmad, M. K. Jamil**: *Discretization-Induced Chaos and Bistability in the Three-Dimensional
+> Lorenz System: A Step-Size Bifurcation Analysis with State Feedback Control*
 > (manuscript in preparation).
 
 The code follows the order of the paper, so each section can be checked on its own.
