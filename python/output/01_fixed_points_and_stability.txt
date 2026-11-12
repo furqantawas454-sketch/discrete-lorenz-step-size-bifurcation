@@ -1,0 +1,35 @@
+== Section 2: basic properties of the Euler--Lorenz map ==
+    [PASS] Lemma 2.1: G_h(SX) = S G_h(X) at 200 random points
+    [PASS] Lemma 2.2: the z-axis is invariant and z -> (1 - h beta) z on it
+
+== Section 3: fixed points and characteristic polynomials ==
+    [PASS] Theorem 3.1: E_0 and E_+- (rho > 1) are fixed points for every h
+    [PASS] Lemma 3.1(ii): eigenvalues of DF(E_+) are the roots of P, eq. (3.5)
+    [PASS] Eq. (3.3): multipliers are mu = 1 + h lambda
+
+== Section 4: stability thresholds ==
+    [PASS] Lemma 4.1: |1 + h lambda| < 1  <=>  Re lambda < 0 and h < h(lambda)  (2000 random cases)
+  origin, (sigma,beta,rho)=(10,2.667,0.5): h1=0.19002, h3=0.75000, h0=0.19002
+    [PASS] Theorem 4.1: h0 = 0.19002 and spectral radius crosses 1 at h0
+  origin, (sigma,beta,rho)=(1,3,0.5): h1=1.17157, h3=0.66667, h0=0.66667
+    [PASS] Theorem 4.1: h0 = 0.66667 and spectral radius crosses 1 at h0
+    [PASS] Lemma 4.2(i): h^3 P(-2/h) = 2 F(h)  (200 random cases)
+    [PASS] Remark 2: N(0) = 2c - KB = beta[rho(sigma-beta-1) - sigma(sigma+beta+3)]
+    [PASS] Remark 2: N(0) vanishes exactly at rho_H = 470/19
+
+  rho      h_F (from F)   min over real   h_NS (from N)   min over complex   spec. rad. at 0.999/1.001 h_E
+    1.2   0.18097        0.18097         inf         inf            0.998000000 / 1.002000000
+    2.0   0.17790        0.17790         0.51105         0.51105            0.998000000 / 1.002000000
+    5.0   0.16936        0.16936         0.10282         0.10282            0.999904599 / 1.000095583
+   10.0   0.16031        0.16031         0.03096         0.03096            0.999981585 / 1.000018452
+   15.0   0.15425        0.15425         0.01216         0.01216            0.999995745 / 1.000004264
+   20.0   0.14973        0.14973         0.00408         0.00408            0.999999369 / 1.000000632
+   24.0   0.14683        0.14683         0.00050         0.00050            0.999999989 / 1.000000011
+   30.0   0.09637        0.09637         0.00138         0.00138            0.999999829 / 1.000000171   (sigma,beta)=(16,4)
+    2.0   0.48278        0.48278         0.59194         0.59194            0.998000000 / 1.002000000   (sigma,beta)=(3,1)
+    [PASS] Theorem 4.2: h_E = min(h_F, h_NS) from F and N agrees with the eigenvalues, 9 parameter sets
+
+  rho_1 (complex pair appears) = 1.3456,  rho_sw = 3.6288 with h_F = h_NS = 0.17281
+    [PASS] Section 7.1: rho_1 = 1.3456 and rho_sw = 3.6288, h = 0.17281
+
+Summary: 13 checks passed, 0 failed.

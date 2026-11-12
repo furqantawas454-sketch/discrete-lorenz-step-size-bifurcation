@@ -1,0 +1,12 @@
+== Section 5 ==
+    [PASS] Lemma 5.1(ii): d|mu|^2/dh at h = -2a/(a^2+b^2) equals -2a
+    [PASS] Theorem 5.1: general formula reduces to the closed form (5.4)
+  l_0(rho = 0.5) = -0.00372211
+    [PASS] l_0(0.5) = -0.003722 < 0
+  l_F: {{1.2, 0.0103145}, {2., 0.00867574}, {3., 0.00720182}}
+    [PASS] Theorem 5.2: l_F(2) = 0.008676 > 0
+  rho = 5:  d = -0.00162782, h_NS = 0.102820, theta_0 = 0.440571
+  rho = 10: d = 0.0000379227, h_NS = 0.0309551, theta_0 = 0.192305
+    [PASS] Theorem 5.3: d(5) = -1.6278e-3 (supercritical), d(10) = 3.7923e-5 (subcritical)
+  rho_sw = 3.62879 (h = 0.172814),  rho_G = 8.62187 (h = 0.0409570)
+    [PASS] rho_sw = 3.6288, rho_G = 8.6219

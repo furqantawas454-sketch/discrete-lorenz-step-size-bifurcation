@@ -1,0 +1,19 @@
+== Theorem 6.1: controlled characteristic polynomial ==
+    [PASS] coefficients (6.2), p(1) of (6.3) and -p(-1) of (6.4) agree with det(mu I - J_c)  (300 random cases)
+    [PASS] the same gains give the same spectrum at E_-  (100 random cases)
+
+== Example 7.5 ==
+  (rho, h) = (10, 0.07): grid 301 x 401, mismatches 21, largest |rad - 1| at mismatches 2.2e-15
+    [PASS] Jury region = eigenvalue region, mismatches only on the boundary
+  spectral radius without control 1.0513, with gains (0.5, 0.5) 0.9575
+    [PASS] spectral radii 1.0513 -> 0.9575, gains satisfy the Jury conditions
+  control switched on at n = 3009; final distance from E_+ 2.7e-15
+    [PASS] switch-on at n = 3009 and convergence to E_+ (distance < 1e-13)
+  (rho, h) = (28, 0.01): grid 301 x 401, mismatches 6, largest |rad - 1| at mismatches 2.2e-16
+    [PASS] Jury region = eigenvalue region, mismatches only on the boundary
+  spectral radius without control 1.0061, with gains (0.5, 0.0) 0.9877
+    [PASS] spectral radii 1.0061 -> 0.9877, gains satisfy the Jury conditions
+  control switched on at n = 3717; final distance from E_+ 2.1e-14
+    [PASS] switch-on at n = 3717 and convergence to E_+ (distance < 1e-13)
+
+Summary: 8 checks passed, 0 failed.

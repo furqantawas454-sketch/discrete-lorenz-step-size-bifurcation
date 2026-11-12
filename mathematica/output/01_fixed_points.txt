@@ -1,0 +1,9 @@
+== Sections 2-3 ==
+    [PASS] Lemma 2.1: G_h(SX) = S G_h(X)
+    [PASS] Lemma 2.2: z-axis invariant, z -> (1 - h b) z
+  fixed points: {{0, 0, 0}, {-(Sqrt[b]*Sqrt[-1 + r]), -(Sqrt[b]*Sqrt[-1 + r]), -1 + r}, {Sqrt[b]*Sqrt[-1 + r], Sqrt[b]*Sqrt[-1 + r], -1 + r}}
+    [PASS] Theorem 3.1: exactly E_0, E_+ and E_-
+    [PASS] Eq. (3.3): J = I + h DF
+    [PASS] Lemma 3.1(i): char. polynomial at E_0 = -(l + b)(l^2 + (s+1) l + s(1-r))
+    [PASS] Lemma 3.1(ii): char. polynomial at E_+ is P, eq. (3.5)
+    [PASS] det(mu I - J(E_+)) = h^3 P(lambda) with mu = 1 + h lambda

@@ -1,0 +1,19 @@
+== Section 4 ==
+    [PASS] Lemma 4.1: |1 + h(a+ib)|^2 - 1 = h(2a + h(a^2+b^2))
+    [PASS] Lemma 4.2(i): h^3 P(-2/h) = 2 F(h)
+    [PASS] Lemma 4.2(ii): (l - l1)(l^2 - 2a l + m) - P(l) = -N(h)(1 + h l), so it equals P exactly when N(h) = 0
+    [PASS] Routh-Hurwitz: K B - 2c = b[s(s+b+3) - r(s-b-1)]
+    [PASS] Remark 2: N(0) = 2c - K B, zero exactly at rho_H
+    [PASS] rho_H(10, 8/3) = 470/19
+  thresholds for sigma = 10, beta = 8/3:
+    rho = 1.2:  h_F = 0.180971,  h_NS = Infinity
+    rho = 2.:   h_F = 0.177900,  h_NS = 0.511050
+    rho = 5.:   h_F = 0.169359,  h_NS = 0.102820
+    rho = 10.:  h_F = 0.160312,  h_NS = 0.0309551
+    rho = 15.:  h_F = 0.154246,  h_NS = 0.0121626
+    rho = 20.:  h_F = 0.149733,  h_NS = 0.00408072
+    rho = 24.:  h_F = 0.146825,  h_NS = 0.000500300
+    [PASS] h_F(2) = 0.17790, h_NS(5) = 0.10282, h_NS(10) = 0.03096
+  rho_1 = 1.34562
+    [PASS] rho_1 = 1.3456 (complex pair appears)
+    [PASS] Theorem 4.1, rho = 0.5: h_0 = h_1 = 0.19002
